@@ -1,0 +1,27 @@
+.page {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1178px;
+}
+.square__box {
+  display: grid;
+  grid-auto-flow: row;
+  justify-items: stretch;
+  grid-template-columns: repeat(auto-fit, 17%);
+  justify-content: space-between;
+  margin-right: auto;
+  width: 98%;
+  background-color: bisque;
+}
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 7% 0;
+  background-color: rgb(165, 42, 130);
+  color: white;
+  font-size: 25px;
+  transform: skew(0deg, 0deg);
